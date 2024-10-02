@@ -1315,7 +1315,6 @@ NSInteger pageStyle = 0;
         [settings writeToFile:settingsPath atomically:YES];
         // Set miscellaneous YTLitePlus features to enabled
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"RYD-ENABLED"]; 
-        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"YouPiPEnabled"]; 
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"newSettingsUI_enabled"]; 
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"fixCasting_enabled"]; 
             // Default gestures as volume, brightness, seek
